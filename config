@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/siddharthraj01/MP16-Crop-Recommendation-System.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "my-new-branch"]
+	remote = origin
+	merge = refs/heads/my-new-branch
